@@ -23,3 +23,11 @@ export interface GameState {
   startTime: number;
   status: Status;
 }
+
+export interface RecordEntry {
+  length: number;
+  base: Base;
+  attempts: number;
+  timeMs: number;
+  date: string;
+}
