@@ -1,0 +1,10 @@
+import { defineConfig } from 'vitest/config';
+
+export default defineConfig({
+  base: './',
+  test: {
+    environment: 'node',
+    globals: true,
+    passWithNoTests: true,
+  },
+});
